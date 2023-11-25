@@ -21,6 +21,13 @@ npm install
 ```
 
 ****
+크론잡이란???
+
+[한글](https://ko.wikipedia.org/wiki/Cron)
+
+[영어(여기가 더 정확함)](https://en.wikipedia.org/wiki/Cron)
+
+[직접 만들어보기](https://crontab.guru/)
 
 
 # 예제 
