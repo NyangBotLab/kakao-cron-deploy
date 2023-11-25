@@ -1,0 +1,12 @@
+{
+  "name": "kabot-cronjob",
+  "version": "1.0.0",
+  "description": "디비봇이요 디비봇",
+  "main": "example.js",
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "keywords": [],
+  "author": "saroro"
+}
