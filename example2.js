@@ -14,6 +14,7 @@
  */
 
 let Cronjob = require("cronjob").CronJob;
+const PARSE_ORDER = ["second", "minute", "hour","date","month", "day"]
 Cronjob.setWakeLock(true);
 /**
  * 여기에 방 이름
@@ -41,7 +42,7 @@ let opt ={
      * 0초
      * @type {CronString}
      */
-    seconds : [0],
+    second : [0],
 
     /**
      * 원하는 분
@@ -49,14 +50,14 @@ let opt ={
      * 0분
      * @type {CronString}
      */
-    minutes : [0],
+    minute : [0],
     /**
      * *는 모든 시
      * 원하는 시
      * @type {CronString }
      * 0시
      */
-    hours : [0],
+    hour : [0],
     /**
      * *는 모든 일
      * 원하는 일
@@ -70,7 +71,7 @@ let opt ={
      * @type {CronString}
      * 모든 월
      */
-    months : "*",
+    month : "*",
     /**
      * *는 모든 요일
      * 원하는 요일
@@ -82,7 +83,7 @@ let opt ={
 }
 // 0 0 0 * * *
 let cronString = "";
-for(let i in opt){
+for(let i of PARSE_ORDER){
     cronString += convertString(opt[i])+" ";
 }
 let cron = Cronjob.add(cronString.trim(), ()=>{
