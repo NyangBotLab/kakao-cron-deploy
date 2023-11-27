@@ -29,22 +29,26 @@ npm install
 
 [직접 만들어보기](https://crontab.guru/)
 
-
-# 예제 
+# 예제
 
 ```javascript
 let cronJob = require("cronjob").CronJob;
-cronJob.add("0 0 * * *",function (){
-   Log.d("12시입니다"); 
+cronJob.add("0 0 * * *", function () {
+    Log.d("12시입니다");
 });
 ```
 
 정확한 내용은 example.js를 참고하세요
 
-
-
-
 # 패치노트
+
+## 1.1.1
+
+1. 타입검증 추가
+
+## 1.1.0
+
+1. before인자 추가
 
 ## 1.0.0
 

@@ -28,6 +28,15 @@ let secondCronjob = Cronjob.add("@weekly", function () {
 })
 
 /**
+ * 한시간 마다 실행 0 * * * * 랑 같음
+ * before 10을 주면 10ms 이전에 작동함
+ */
+let thirdJob = Cronjob.add("@hourly", function () {
+}, {
+    before: 10,
+})
+
+/**
  * 컴파일시 초기화 필수
  */
 function onStartCompile() {

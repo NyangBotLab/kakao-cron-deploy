@@ -1,6 +1,6 @@
 {
   "name": "kabot-cronjob",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "디비봇이요 디비봇",
   "main": "example.js",
   "scripts": {},
