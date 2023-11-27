@@ -85,7 +85,7 @@ let cronString = "";
 for(let i in opt){
     cronString += convertString(opt[i])+" ";
 }
-let cron = Cronjob.add(cronString, ()=>{
+let cron = Cronjob.add(cronString.trim(), ()=>{
     for(let i of rooms){
         Api.replyRoom(i, '딩동 알림왔어요');
     }
