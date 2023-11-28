@@ -1,7 +1,7 @@
 {
   "name": "kabot-cronjob",
-  "version": "1.1.1",
-  "description": "디비봇이요 디비봇",
+  "version": "1.1.2",
+  "description": "카카오톡 봇 크론잡",
   "main": "example.js",
   "scripts": {},
   "devDependencies": {
