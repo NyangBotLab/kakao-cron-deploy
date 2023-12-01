@@ -42,6 +42,12 @@ cronJob.add("0 0 * * *", function () {
 
 # 패치노트
 
+## 1.1.3
+
+1.remainSeconds에 before인자 반영
+
+2.에러처리 세분회
+
 ## 1.1.2
 
 1.startDate 인자가 제대로 동작 안하는 현상 수정

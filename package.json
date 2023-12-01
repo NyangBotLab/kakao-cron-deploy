@@ -1,6 +1,6 @@
 {
   "name": "kabot-cronjob",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "카카오톡 봇 크론잡",
   "main": "example.js",
   "scripts": {},
