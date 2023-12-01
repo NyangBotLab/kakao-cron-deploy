@@ -46,7 +46,7 @@ cronJob.add("0 0 * * *", function () {
 
 1.remainSeconds에 before인자 반영
 
-2.에러처리 세분회
+2.에러처리 세분화
 
 ## 1.1.2
 
